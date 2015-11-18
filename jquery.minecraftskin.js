@@ -44,7 +44,7 @@
         if (settings.draw !== 'head' && settings.draw !== 'model') settings.draw = 'model'
 
         // Request the data
-        methods.requestData('http://s3.amazonaws.com/MinecraftSkins/' + settings.username + '.png', $this, settings)
+        methods.requestData('http://skins.minecraft.net/MinecraftSkins/'+settings.username+'.png', $this, settings);
       })
     }
     , buildImage: function(imgData, $this, settings) {
